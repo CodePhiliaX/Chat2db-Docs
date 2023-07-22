@@ -14,7 +14,7 @@ const config = {
   title: 'Chat2DB',
   tagline: '一款开源免费的支持Mysql、Oracle、PostgreSQL等数据库的客户端工具🚀',
   favicon: 'favicon.ico',
-  url: 'https://chat2db.opensource.alibaba.com',
+  url: 'https://sqlgpt.cn',
   baseUrl: '/',
   organizationName: 'chat2db',
   projectName: 'chat2db',
@@ -146,7 +146,7 @@ const config = {
           },
           {
             label: '下载',
-            to: "https://chat2db.opensource.alibaba.com/docs/guides/download"
+            to: "/docs/guides/download"
           },
           {
             type: 'doc',
