@@ -25,33 +25,30 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-      - name: Cache
-        # cache 在这里主要用于缓存 npm，提升构建速率
-        # https://github.com/actions/cache
-        uses: actions/cache@v3
-        # npm 缓存的路径可查看 https://docs.npmjs.com/cli/cache#cache
-        # 由于这里 runs-on 是 ubuntu-latest，因此配置 ~/.npm
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+        # 安装node.js
       - name: Use Node.js
-        # 配置 Node 执行环境（当前构建的服务器默认没有 Node 环境，可以通过 Action 安装 Node）
-        # https://github.com/actions/setup-node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@main
         with:
           node-version: 16
+          cache: "yarn"
       - name: Build
         # 安装 Node 之后就可以执行构建脚本
         run: |
-          npm install yarn -g
           yarn
           yarn run build
 
-        # run: 
-        #   npm install
-        #   npm run build
+      # 把文件上传到OSS 方便下载
+      - name: Set up oss utils
+        uses: yizhoumo/setup-ossutil@v1
+        with:
+          endpoint: "oss-accelerate.aliyuncs.com"
+          access-key-id: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          ossutil-version: "latest"
+      - name: Upload to oss
+        run: |
+          ossutil cp -rf --acl=public-read ./build/ oss://chat2db-website/
+
       - name: Deploy
         # 将构建产物 commit 到一个分支上，用于发布静态站点资源
         # https://github.com/peaceiris/actions-gh-pages
