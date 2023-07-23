@@ -11,9 +11,9 @@ const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chat2DB',
+  title: '云数据库使用',
   tagline: '一款开源免费的支持Mysql、Oracle、PostgreSQL等数据库的客户端工具🚀',
-  favicon: 'favicon.ico',
+  favicon: 'favicon.svg',
   url: 'https://sqlgpt.cn',
   baseUrl: '/',
   organizationName: 'chat2db',
@@ -110,12 +110,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '/logo/logo.light.svg',
+      image: 'favicon.svg',
       navbar: {
         logo: {
           href: '/',
-          src: '/logo/logo.light.svg',
-          srcDark: '/logo/logo.dark.svg',
+          src: 'favicon.svg',
+          srcDark: 'favicon.svg',
           alt: 'Chat2DB',
 
           width:'80px'
