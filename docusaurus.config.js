@@ -110,7 +110,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: '',
+      image: 'favicon.svg',
       navbar: {
         logo: {
           href: '/',
