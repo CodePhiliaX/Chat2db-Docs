@@ -114,8 +114,8 @@ const config = {
       navbar: {
         logo: {
           href: '/',
-          src: '',
-          srcDark: '',
+          src: 'favicon.svg',
+          srcDark: 'favicon.svg',
           alt: 'Chat2DB',
 
           width:'80px'
