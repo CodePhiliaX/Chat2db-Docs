@@ -134,6 +134,8 @@ Chat2DB AI 是 Chat2DB 自己实现的 AI，不需要科学上网。 通过扫�
 ### 2、SQL 解释
 
 选中 SQL 右键 解释SQL，在右侧弹窗中 AI 即可对 SQL 解释生成内容。
+<a><img src="https://sqlgpt.cn/img/21.png" width="100%"/></a>
+
 
 ### 3、SQL优化
 
