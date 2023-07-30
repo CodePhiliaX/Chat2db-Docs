@@ -16,7 +16,7 @@ export default function CommunitySection() {
           联系 <span className="text-primary-100">我们</span>
         </h2>
         <p className="mb-10 text-zinc-500" align="center">
-          <a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="20%"/></a>
+          <a><img src="https://github.com/chat2db/Chat2DB/assets/22975773/e4239d29-1426-4361-bf57-f1b0b67d1281" width="20%"/></a>
           <br/>
           微信：yxccw132 钉钉：9135032392
         </p>
