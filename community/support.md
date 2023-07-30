@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 ## 关注微信公众号(Ch2DB)
-### 回复 "群" or "加群" 加入微信群、钉钉群、QQ群探讨问题
+### 点击加群按钮可以加入官方微信群探讨问题
 ![微信公众号](https://sqlgpt.cn/img/qrcode_for_gh_ad223b39df20_258.jpg)
 ## Github
 去 [https://github.com/chat2db/Chat2DB/issues](https://github.com/chat2db/Chat2DB/issues) 提交`issues`
