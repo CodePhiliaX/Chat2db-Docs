@@ -14,7 +14,7 @@ const config = {
   title: '云数据库使用',
   tagline: '一款开源免费的支持Mysql、Oracle、PostgreSQL等数据库的客户端工具🚀',
   favicon: 'favicon.svg',
-  url: 'https://sqlgpt.cn',
+  url: 'https://chat2db.ai',
   baseUrl: '/',
   organizationName: 'chat2db',
   projectName: 'chat2db',
