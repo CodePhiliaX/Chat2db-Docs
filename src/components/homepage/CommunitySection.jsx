@@ -16,9 +16,9 @@ export default function CommunitySection() {
           联系 <span className="text-primary-100">我们</span>
         </h2>
         <p className="mb-10 text-zinc-500" align="center">
-          <a><img src="https://sqlgpt.cn/img/qrcode_for_gh_ad223b39df20_258.jpg" width="20%"/></a>
+          <a><img src="https://sqlgpt.cn/img/qrcode_for_gh_ad223b39df20_258.jpg" width="60%"/></a>
           <br/>
-          微信：yxccw132 钉钉：9135032392
+          微信：yxccw132
         </p>
         <div className="mx-auto  flex flex-wrap -space-x-1.5">
           {githubUsernames.map((username) => (
