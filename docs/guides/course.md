@@ -8,7 +8,7 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 ## 10分钟入门视频
 
-<iframe src="//player.bilibili.com/player.html?aid=20210225&bvid=BV1qK4y1i7ZC&cid=305884542&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+制作中
 
 ## 访问示例数据
 
@@ -59,7 +59,7 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 如果数据库需要通过SSH隧道连接，可以选择使用SSH true 配置SSH隧道信息，点击“测试SSH隧道”按钮，如果连接成功，说明SSH可以链接。
 
-<a><img src="https://sqlgpt.cn/img/12.png" width="80%"/></a>
+<a><img src="https://sqlgpt.cn/img/12.png" width="100%"/></a>
 
 ### ⚠ 错误提示
 
@@ -67,7 +67,7 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 如果仍然无法解决，查看详情后可以复制错误信息，在 GitHub 提交 issue，所有 issue 我们都会去看，提交 issue 是最有效的解决办法。
 
-<a><img src="https://sqlgpt.cn/img/13.png" width="80%"/></a>
+<a><img src="https://sqlgpt.cn/img/13.png" width="100%"/></a>
 
 ## 数据库管理
 
@@ -88,9 +88,9 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 ## AI 配置
 
-### 方式一 : ⚡ 通过 Open AI key使用AI能力
+### 方式一 : ⚠  通过 Open AI key使用AI能力
 
-提示：使用 OpenAI Key 是客户端直接请求 OpenAI 的接口 ，Chat2DB 没有对使用 OpenAI 做任何限制，有异议直接看代码。
+⚠ 提示：使用 OpenAI Key 是客户端直接请求 OpenAI 的接口 ，Chat2DB 没有对使用 OpenAI 做任何限制，有异议直接看代码。
 如果使用 OpenAI 遇到的错误 95% 都是 Open AI 限制导致的，Open AI 限制如下：
 
 1、访问 OpenAI 需要能够科学上网，并且能够开启全局代理，很多科学上网不支持全局代理导致不可用。
