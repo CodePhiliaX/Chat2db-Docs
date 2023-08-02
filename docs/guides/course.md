@@ -189,5 +189,3 @@ $ mvn clean install # 需要安装maven 3.8以上版本
 $ cd chat2db-server/chat2db-server-start/target/
 $ java -jar -Dloader.path=/lib -Dchatgpt.apiKey=xxxxx chat2db-server-start.jar  # 启动应用 chatgpt.apiKey 需要输入ChatGPT的key,如果不输入无法使用AIGC功能
 ```
-
-## 📑 文

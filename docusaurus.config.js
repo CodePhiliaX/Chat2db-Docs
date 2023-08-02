@@ -11,7 +11,7 @@ const resourcesHTML = fs.readFileSync('./src/snippets/resources.html', 'utf-8');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '云数据库使用',
+  title: 'Chat2DB',
   tagline: '一款开源免费的支持Mysql、Oracle、PostgreSQL等数据库的客户端工具🚀',
   favicon: 'favicon.svg',
   url: 'https://chat2db.ai',
