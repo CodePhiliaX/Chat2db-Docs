@@ -8,8 +8,7 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 ## 10分钟入门视频
 
-<iframe src="//player.bilibili.com/player.html?aid=659372917&bvid=BV1yh4y1r7NF&cid=1223366275&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
+<iframe src="//player.bilibili.com/player.html?aid=659372917&bvid=BV1yh4y1r7NF&cid=1223366275&page=1&autoplay=0" width="100%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"  sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
 ## 访问示例数据
 
 打开Chat2DB，点击左侧的“连接”按钮，选择“示例数据库”，右键点击“连接”按钮或双击，即可连接到示例数据库。
