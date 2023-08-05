@@ -8,7 +8,7 @@ description: Chat2DB一个集成了AI能力的、支持Mysql、Oracle等多种�
 
 ## 10分钟入门视频
 
-制作中
+<video src="https://sqlgpt.cn/img/demo_x264.mp4" controls="" height=100% width=100%> </video>
 
 ## 访问示例数据
 
