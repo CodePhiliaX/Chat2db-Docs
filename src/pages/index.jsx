@@ -13,7 +13,7 @@ import Head from '@docusaurus/Head';
 export default function Homepage() {
   return (
     <Layout
-      description="🚀智能的通用数据库工具和SQL客户端（General-purpose database tools and SQL clients with AI (ChatGPT)）,支持MySQL、PostgreSQL、Oracle、SQLServer、ClickHouse、OceanBase、H2、SQLite等等 "
+      description="测试测试测试🚀智能的通用数据库工具和SQL客户端（General-purpose database tools and SQL clients with AI (ChatGPT)）,支持MySQL、PostgreSQL、Oracle、SQLServer、ClickHouse、OceanBase、H2、SQLite等等 "
       wrapperClassName="homepage flex flex-col"
       noFooter
     >
