@@ -36,6 +36,7 @@ export default function Homepage() {
 
       <CommunitySection />
 
+      测试测试
       <HomeFooter />
     </Layout>
   );
